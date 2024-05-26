@@ -41,13 +41,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/tasks/0f38f3be-8037-47d5-8ae4-4be24e0d351f",
+					"raw": "http://localhost:8000/tasks/0f38f3be-8037-47d5-8ae4-4be24e0d351f",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"localhost"
 					],
 					"port": "8000",
 					"path": [
@@ -93,13 +90,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/tasks/0f38f3be-8037-47d5-8ae4-4be24e0d351f",
+					"raw": "http://localhost:8000/tasks/0f38f3be-8037-47d5-8ae4-4be24e0d351f",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"localhost"
 					],
 					"port": "8000",
 					"path": [
@@ -116,18 +110,34 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/tasks/0f38f3be-8037-47d5-8ae4-4be24e0d351f",
+					"raw": "http://localhost:8000/tasks/0f38f3be-8037-47d5-8ae4-4be24e0d351f",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"localhost"
 					],
 					"port": "8000",
 					"path": [
 						"tasks",
 						"0f38f3be-8037-47d5-8ae4-4be24e0d351f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HEALTH CHECK",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"health"
 					]
 				}
 			},
